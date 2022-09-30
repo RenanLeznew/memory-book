@@ -1,5 +1,5 @@
 export interface ImageProperties{
-    source: string[];
+    source: string;
     topbot?: string | null;
     leftright?: string | null;
     skew?: string | null
