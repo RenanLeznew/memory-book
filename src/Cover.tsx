@@ -24,10 +24,10 @@ function Cover(){
                 <h2 className='text-8xl absolute left-64 bottom-3'>
                     🌎
                 </h2>
-                <h2 className='text-6xl absolute text-slate-800 font-bold right-80 bottom-0'>
+                <h2 className='text-6xl absolute text-slate-800 font-bold right-80 bottom-3'>
                     Renan 💜
                 </h2>
-                <h2 className='text-6xl absolute text-purple-900 font-bold right-40 bottom-0'>  Gabs</h2>
+                <h2 className='text-6xl absolute text-purple-900 font-bold right-40 bottom-3'>  Gabs</h2>
             <Link to={'/book'}>
                 <button 
                     className="w-0 h-0 absolute bottom-0 right-0 shadow-inner border-[#572307]  border-b-[85px] border-solid border-l-[85px] border-l-transparent" 
