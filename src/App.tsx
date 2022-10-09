@@ -92,9 +92,22 @@ function App() {
         />
         )}
         <FoldedButton 
+          direction="forward"
           oldIndex={index}
           setIndex={setIndex}
         /> 
+        <FoldedButton 
+          direction="home"
+          oldIndex={index}
+          setIndex={setIndex}
+        />
+        {index > 3 &&(
+          <FoldedButton 
+          direction="backward"
+          oldIndex={index}
+          setIndex={setIndex}
+        /> 
+        )}
         </div>
   );
 }
