@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link, Navigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 function FoldedButton(props: {oldIndex: number, setIndex: React.Dispatch<React.SetStateAction<number>>, direction: string}){
+  let navigate = useNavigate();
   let { oldIndex, setIndex, direction } = props;
   let button_position = "w-0 h-0 absolute bottom-0 shadow-inner border-[#572307]" 
   while(oldIndex > 47){
@@ -24,7 +25,7 @@ function FoldedButton(props: {oldIndex: number, setIndex: React.Dispatch<React.S
             setIndex(oldIndex-4);
           }
           else if (direction === "home"){
-            <Navigate to={"/"}></Navigate>
+            {navigate('/')}
           }
         }
       }
