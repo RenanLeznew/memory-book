@@ -9,7 +9,7 @@ function App() {
   let [index, setIndex] = useState(0)
   let [keeper, setKeeper] = useState(0)
   const [isShown, setIsShown] = useState(false)
-  const [message, setMessage] = useState(messages)
+  const [message] = useState(messages)
   const [source] = useState(images)
   return (
     <div className="bg-gradient-to-r from-orange-900 via-yellow-700 to-orange-900 brightness-50 w-screen h-screen border-8 border-[#321414]">
@@ -27,7 +27,7 @@ function App() {
           skew="transform hover:rotate-6 duration-300"  
         />
       </button>
-        {isShown && keeper==1 && (
+        {isShown && keeper===1 && (
           <HoveredMessage 
             message={message[index]} 
             topbottom="bottom-96"
@@ -46,7 +46,7 @@ function App() {
           skew="transform hover:-rotate-6 duration-300"  
         />
       </button>
-        {isShown && keeper==2 && (
+        {isShown && keeper===2 && (
         <HoveredMessage 
           message={message[index+1]} 
           topbottom="top-96"
@@ -65,7 +65,7 @@ function App() {
           skew="transform hover:-rotate-6 duration-300"  
         />
       </button>
-        {isShown && keeper==3 && (
+        {isShown && keeper===3 && (
         <HoveredMessage 
             message={message[index+2]} 
             topbottom="top-0"
@@ -84,7 +84,7 @@ function App() {
           skew="transform hover:rotate-6 duration-300"  
         />
       </button>
-        {isShown && keeper==4 && (
+        {isShown && keeper===4 && (
         <HoveredMessage 
           message={message[index+3]}  
           topbottom="top-96"
