@@ -9,10 +9,10 @@ function FoldedButton(props: {oldIndex: number, setIndex: React.Dispatch<React.S
     oldIndex = 0;
   }
   if(direction == "backward" || direction == "home"){
-    button_position = button_position + " border-b-[85px] border-solid border-r-[85px] border-r-transparent left-0"
+    button_position = button_position + " lg:border-b-[85px] border-b-[45px] border-solid border-r-[45px] lg:border-r-[85px] border-r-transparent left-0"
   }
   else if(direction == "forward"){
-    button_position = button_position + " border-b-[85px] border-solid border-l-[85px] border-l-transparent right-0"
+    button_position = button_position + " border-b-[45px] lg:border-b-[85px] border-solid border-l-[45px] lg:border-l-[85px] border-l-transparent right-0"
   }
   return (
       <button 
