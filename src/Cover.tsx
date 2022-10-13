@@ -30,7 +30,7 @@ function Cover(){
                 <h2 className='text-xl lg:text-6xl absolute text-purple-900 right-20 font-bold lg:right-40 bottom-3'>  Gabs</h2>
             <Link to={'/book'}>
                 <button 
-                    className="border-b-[45px] lg:border-b-[85px] border-solid border-l-[45px] lg:border-l-[85px] border-l-transparent right-0" 
+                    className="border-b-[45px] lg:border-b-[85px] border-solid border-l-[45px] lg:border-l-[85px] border-l-transparent right-0 w-0 h-0 absolute bottom-0 shadow-inner border-[#572307]" 
                 >
                 </button>
             </Link>
