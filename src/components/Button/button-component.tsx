@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 function FoldedButton(props: {oldIndex: number, setIndex: React.Dispatch<React.SetStateAction<number>>, direction: string}){
   let navigate = useNavigate();
   let { oldIndex, setIndex, direction } = props;
-  let button_position = "w-0 h-0 absolute top-[100%] lg:bottom-2 shadow-inner border-[#9f775d] brightness-90" 
+  let button_position = "w-0 h-0 absolute top-[100%] lg:top-auto lg:bottom-2 shadow-inner border-[#9f775d] brightness-90" 
   while(oldIndex > 47){
     oldIndex = 0;
   }
