@@ -62,7 +62,7 @@ export default [
     Us6,
     Us7,
     Us8,
-    Us9,,
+    Us9,
     Us10,
     Us11,
     Us12,
