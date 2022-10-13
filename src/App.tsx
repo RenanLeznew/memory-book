@@ -23,7 +23,7 @@ function App() {
         >
           <OurImage 
             source={source[index]}
-            topbot="lg:top-12 top-32"
+            topbot="top-[10%] lg:top-[5%]"
             leftright="lg:left-52 left-6"
             skew="transform hover:rotate-6 duration-300"  
           />
@@ -42,7 +42,7 @@ function App() {
         >
           <OurImage 
             source={source[index+1]}
-            topbot="lg:bottom-20 bottom-40"
+            topbot="bottom-[10%] lg:bottom-[5%]"
             leftright="lg:left-52 left-6"
             skew="transform hover:-rotate-6 duration-300"  
           />
@@ -61,7 +61,7 @@ function App() {
         >
           <OurImage 
             source={source[index+2]}
-            topbot="lg:top-12 top-32"
+            topbot="top-[10%] lg:top-[5%]"
             leftright="lg:right-56 right-5"
             skew="transform hover:-rotate-6 duration-300"  
           />
@@ -80,7 +80,7 @@ function App() {
         >
           <OurImage 
             source={source[index+3]}
-            topbot="lg:bottom-20 bottom-40"
+            topbot="bottom-[10%] lg:bottom-[5%]"
             leftright="lg:right-56 right-5"
             skew="transform hover:rotate-6 duration-300"  
           />
