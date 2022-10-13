@@ -86,13 +86,12 @@ function App() {
           />
         </button>
           {isShown && keeper===4 && (
-          <HoveredMessage 
+            <HoveredMessage 
             message={message[index+3]}  
             topbottom="top-96"
             leftright="mr-4"
           />
           )}
-          </div>
           <FoldedButton 
             direction="forward"
             oldIndex={index}
@@ -110,6 +109,7 @@ function App() {
             setIndex={setIndex}
           /> 
           )}
+          </div>
     </div>
   );
 }
