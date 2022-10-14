@@ -23,7 +23,7 @@ function App() {
         >
           <OurImage 
             source={source[index]}
-            topbot="top-[20%] lg:top-[5%]"
+            topbot="top-[10%] sm:top-[20%] lg:top-[5%]"
             leftright="lg:left-52 left-6"
             skew="transform hover:rotate-6 duration-300"  
           />
