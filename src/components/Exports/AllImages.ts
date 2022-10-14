@@ -50,7 +50,6 @@ import Us48 from "../../assets/Us (48).jpeg";
 import Us49 from "../../assets/Us (49).jpeg";
 import Us50 from "../../assets/Us (50).jpeg";
 import Us51 from "../../assets/Us (51).jpeg";
-import Us52 from "../../assets/Us (52).jpeg";
 
 export default [
     Us0,
@@ -105,5 +104,4 @@ export default [
     Us49,
     Us50,
     Us51,
-    Us52,
 ]
