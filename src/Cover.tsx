@@ -14,7 +14,7 @@ function Cover(){
                         </br>
                         <h1 className='text-2xl lg:text-6xl ml-9 lg:ml-36 text-transparent bg-clip-text bg-gradient-to-b from-lime-700 via-blue-600 to-purple-900'>DAS</h1>
                     </div>
-                    <div className='absolute mt-[14%] font-mono font-bold lg:ml-20 right-20 lg:mt-36 lg:p-32'>
+                    <div className='absolute mt-[18%] font-mono font-bold lg:ml-20 right-20 lg:mt-36 lg:p-32'>
                         <h1 className='text-4xl lg:text-8xl ml-20 lg:ml-5 text-transparent bg-clip-text bg-gradient-to-b from-red-900 via-yellow-400 to-lime-600'>LIVRO</h1> 
                         <br>
                         </br>
