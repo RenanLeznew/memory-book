@@ -7,20 +7,20 @@ function Cover(){
             </div>
                 <div className='portrait:hidden'>
                     <div className='absolute font-mono font-bold mr-36 lg:ml-20 mt-[10%] lg:mt-36 p-12 lg:p-32'>
-                        <h1 className='text-2xl lg:text-8xl ml-4 lg:ml-16 text-transparent bg-clip-text bg-gradient-to-b from-red-900 via-yellow-400 to-lime-600'>NOSSO</h1> 
+                        <h1 className='text-4xl lg:text-8xl ml-4 lg:ml-16 text-transparent bg-clip-text bg-gradient-to-b from-red-900 via-yellow-400 to-lime-600'>NOSSO</h1> 
                         <br>
                         </br>
                         <br>
                         </br>
-                        <h1 className='text-xl lg:text-6xl ml-9 lg:ml-36 text-transparent bg-clip-text bg-gradient-to-b from-lime-700 via-blue-600 to-purple-900'>DAS</h1>
+                        <h1 className='text-2xl lg:text-6xl ml-9 lg:ml-36 text-transparent bg-clip-text bg-gradient-to-b from-lime-700 via-blue-600 to-purple-900'>DAS</h1>
                     </div>
-                    <div className='absolute mt-[14%] font-mono font-bold ml-64 lg:ml-20 lg:right-20 lg:mt-36 lg:p-32'>
-                        <h1 className='text-2xl lg:text-8xl ml-20 lg:ml-5 text-transparent bg-clip-text bg-gradient-to-b from-red-900 via-yellow-400 to-lime-600'>LIVRO</h1> 
+                    <div className='absolute mt-[14%] font-mono font-bold mr-20 lg:ml-20 lg:right-20 lg:mt-36 lg:p-32'>
+                        <h1 className='text-4xl lg:text-8xl ml-20 lg:ml-5 text-transparent bg-clip-text bg-gradient-to-b from-red-900 via-yellow-400 to-lime-600'>LIVRO</h1> 
                         <br>
                         </br>
                         <br>
                         </br>
-                        <h1 className='text-xl lg:text-6xl ml-16 text-transparent bg-clip-text bg-gradient-to-b from-lime-700 via-blue-600 to-purple-900'>AVENTURAS</h1>
+                        <h1 className='text-2xl lg:text-6xl ml-16 text-transparent bg-clip-text bg-gradient-to-b from-lime-700 via-blue-600 to-purple-900'>AVENTURAS</h1>
                     </div>
                 </div>
                 <div className='landscape:hidden'>
