@@ -30,7 +30,7 @@ function App() {
         </button>
           {isShown && keeper===1 && (
             <HoveredMessage 
-              message={message[index]} 
+              message={message[index-1]} 
               topbottom="bottom-96"
               leftright="ml-4"
             />
@@ -49,7 +49,7 @@ function App() {
         </button>
           {isShown && keeper===2 && (
           <HoveredMessage 
-            message={message[index+1]} 
+            message={message[index]} 
             topbottom="top-96"
             leftright="ml-4"
           />
@@ -68,7 +68,7 @@ function App() {
         </button>
           {isShown && keeper===3 && (
           <HoveredMessage 
-              message={message[index+2]} 
+              message={message[index+1]} 
               topbottom="top-0"
               leftright="mr-4"
             />
@@ -87,7 +87,7 @@ function App() {
         </button>
           {isShown && keeper===4 && (
             <HoveredMessage 
-            message={message[index+3]}  
+            message={message[index+2]}  
             topbottom="top-96"
             leftright="mr-4"
           />
