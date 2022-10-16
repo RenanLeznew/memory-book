@@ -62,7 +62,7 @@ function App() {
           <OurImage 
             source={source[index+2]}
             topbot="top-[10%] lg:top-[5%] "
-            leftright="lg:right-56 right-5"
+            leftright="lg:right-48 right-5"
             skew="transform hover:-rotate-6 duration-300"  
           />
         </button>
@@ -81,7 +81,7 @@ function App() {
           <OurImage 
             source={source[index+3]}
             topbot="bottom-[10%] lg:bottom-[5%]"
-            leftright="lg:right-56 right-5"
+            leftright="lg:right-48 right-5"
             skew="transform hover:rotate-6 duration-300"  
           />
         </button>
